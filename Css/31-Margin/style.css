@@ -1,0 +1,17 @@
+/* margin elementler arası ayırmak için kullanılır.
+defult html olarak gelir */
+body{
+  margin: 0%;
+}
+h1{
+  border: 3px solid red;
+  margin: 0;  /* default gelen margin sıfırlanmak istenirse */
+  margin-top: 50px; 
+  /* margin: 50px 0px; sağ ve sol 50px top-bottom 0
+  margin: 50px 30px; left/right 50px top/bottom 30px
+  margin: 50px 20px 30px 4px; sırasıyla top-right-bottom-left */
+}
+
+a{
+  border: 3px solid blue;
+}

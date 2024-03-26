@@ -1,0 +1,31 @@
+h2 {
+  text-transform: capitalize;
+}
+
+h1 {
+  /* text-decoration-line: line-through;
+  text-decoration-style: dotted;
+  text-decoration-color: red; */
+  text-decoration: underline dotted red;
+}
+ul {
+  list-style-type:disc;
+}
+
+a {
+  /* default blue */
+  color: rgb(153, 0, 89);
+  text-decoration:none;
+}
+
+a:visited {
+  /* Siteye giriş yapılmış ise */
+  color: blue;
+}
+
+a:hover {
+  /* linkin üzerine gelindiğinde yapılması istenen */
+  text-decoration: underline;
+   /* cursor:wait  ;  */
+   /* default hali el işareti */
+}

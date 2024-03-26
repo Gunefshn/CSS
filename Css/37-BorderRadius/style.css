@@ -1,0 +1,14 @@
+/* Border köşeleri yuvarlama için kullanılır */
+.box{
+  background-color: slategrey;
+ width: 200px;
+ height: 200px;
+ border-radius: 20px; 
+ /* Her köşesinden 20px bir yuvarlama işlemi yapar. */
+ border-radius: 50%; 
+ /* bir avatar resmi gibi şeylerde kullanılacaksa yuvarlak görünüm için kullanılır. */
+ /* sadece sağ üst ve sol alt yuvarlama gibi bir işlem yapılacaksa sırasıyla solüst-sağüst-sağalt-solalt*/
+ border-radius: 0px 15px 0px 15px;
+
+  
+}

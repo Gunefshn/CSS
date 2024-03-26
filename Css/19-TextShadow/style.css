@@ -1,0 +1,6 @@
+h1 {
+
+  text-shadow: -2px 2px 3px red;
+  /* blur ne kadar düşükolursa o kadar ince ve görünürlük fazla ne kadar  yüksek olursa görünürlük azalır kalınlık artar  */
+}
+

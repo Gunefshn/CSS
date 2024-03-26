@@ -1,0 +1,11 @@
+h1{
+  /* border-width: 2px;
+  border-color: teal;
+  border-style: dotted;
+  Daha az kod satırıyla yazılabilr */
+   border: 2px dotted teal; /* Tüm alana border */
+   border-bottom: 3px solid red; /* Sadece altına border vermek için */
+   border-top: 4px dashed pink;
+   border-left: 9px dotted green;
+   border-right: 5px dashed darkblue;
+}

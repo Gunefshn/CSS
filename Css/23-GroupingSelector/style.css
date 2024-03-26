@@ -1,0 +1,23 @@
+/* H1 etiketine vermiş olduğumuz özellik h2 yi de kapsamasını istersek groupingSelector kullanılır */
+input[type="text"]{
+  border: 3px solid red;
+}
+input[type="number"]{
+  border: 3px solid green;
+}
+/* Kod tekrarı yapılmış olur.
+h1{
+  color: teal;
+}
+h2{
+  color: teal;
+} */
+h1,h2{
+  color: teal;
+}
+#summaryList,
+#summary,
+/* class selector element selector u ezer */
+.title{
+  color: aquamarine;
+}

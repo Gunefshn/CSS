@@ -1,0 +1,14 @@
+.buttonDiv{
+  background-color: blue;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.buttonDiv button{
+  position: absolute;
+    right: 0;
+    top: 0;
+}
+

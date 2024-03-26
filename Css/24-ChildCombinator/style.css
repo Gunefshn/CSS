@@ -1,0 +1,10 @@
+ul span{
+  color: red;
+}
+
+/* childCombinator de direkt alt element içinde bulunması lazım 
+ul> span yaptığımızda bir değişiklik olmaz. */
+
+ol > li{
+  border: 1px solid green ;
+}

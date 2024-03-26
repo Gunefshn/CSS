@@ -1,0 +1,29 @@
+h1 {
+  font-size: 70px;
+}
+
+p {
+  font-weight: bold;
+  /* yerine font-weight: 700; verilebilir. */
+  font-style: italic;
+  font-size: 12px;
+}
+/* font-size yazının boyutu 
+font-weight yazının kalınlığı
+font-style yazının tipi */
+/* 
+font-weieht: 100;
+font oeight: 200; 
+fontereiehte 400;  normal 
+font-weight: 500; 
+font meighe: 609;
+fontorcüghtz 7005  bold 
+fontorcighti 00;
+font-weight: 900;  
+*/
+/* font-welght: normal;
+font-welghs: bold;
+font-weight: lighter;
+font-weight: bolder;
+font-weight: 100;
+font-weight: 900;  font 100-900 arasında değer alır. */

@@ -1,0 +1,18 @@
+.btn{
+    width: 50px ;
+    border: 1px solid teal;
+    padding: 10px 20px;
+    margin-top: 50px;
+    display: block;
+    /* backgroundcolor un kaç saniyede değişmesini istiyorsak hover sonlandığında transitionun sonlannasıda aynı sürede gerçekleşir. */
+    transition: background-color 2s;
+
+}
+.btn:hover{
+
+    /* imleç buton üstüne geldiğinde */
+    background-color: tomato;
+    color: aquamarine;
+    /* bu şekilde uygulandığı zaman jover durumu sona erdiği an transtionda sona erer */
+    /* transition: background-color 2s; */
+}

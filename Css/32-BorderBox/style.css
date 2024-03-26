@@ -1,0 +1,13 @@
+div{
+  width: 300px;
+  height: 300px;
+  border: 3px dotted teal;
+  background-color: thistle;
+  margin: 30px;
+  padding: 20px;
+}
+
+#title{
+  box-sizing: border-box;
+  /* Tüm birim toplam boyutunun 300px olduğunu kabul eder */
+}

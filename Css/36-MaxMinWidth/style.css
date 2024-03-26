@@ -1,0 +1,9 @@
+.box{
+  background-color: slategrey;
+  width: 100%;
+  height: 300px;
+  /* boyutları kısıtlmak istediğimiz zaman kullanıyoruz. */
+  min-width: 800px;
+  /* max-width: 600px; */
+
+}

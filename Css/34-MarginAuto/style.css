@@ -1,0 +1,18 @@
+
+#container{
+  background-color: aquamarine;
+  border: 3px dotted teal;
+  width: 300px;
+  height: 300px;
+}
+
+#container h2{
+  text-align: center;
+  width: 150px;
+  border: 2px solid black;
+  margin: auto;  
+  /* Bulunduğu dive gör eyatay olarak ortalama yapar */
+  /* Sağdan ve soldan eşit bir marjin vererek içerisindeli dive göre ortalama yapar */
+  margin: 10px auto; /* top ve bottom 10px left/right auto */
+
+}

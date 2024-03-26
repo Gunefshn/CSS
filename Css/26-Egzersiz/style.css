@@ -1,0 +1,24 @@
+li{
+  color: red;
+}
+h1,
+h2{
+  color: blue;
+}
+#submit{
+  background-color: teal ;
+  color: aqua;
+}
+#online span{
+  color: pink;
+}
+.alive{
+  color: green;
+}
+input[type="email"]{
+  background-color: aqua;
+}
+h2.title{
+  color: brown;
+}
+

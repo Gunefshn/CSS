@@ -1,0 +1,21 @@
+/* h1 {
+  color: pink;
+  background-color: yellow;
+}
+
+#overview {
+  color: white;
+  background-color: green;
+} */
+/* Verilen rengin tüm sayfada geçerli olması için body etiketine verilir. */
+body {
+  background-color: rgb(130, 185, 248);
+  color: #6a8859;
+  /* color tüm yazı renkleri background-color sayfa rengi */
+}
+
+#overview {
+  color: rgb(0, 61, 141);
+  opacity: 0.5;
+ /*  opacity görünürlüğü % ya da 0-1 arasında değer verilebilir. */
+}

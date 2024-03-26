@@ -1,0 +1,14 @@
+ul#summaryList{
+  color: red;
+}
+h2 #summary{
+  color: aqua;
+}
+/* spanda etkilenir. */
+h2#summaryies{
+  color: blueviolet;
+}
+
+h2.title{
+  color: coral;
+}

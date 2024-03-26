@@ -1,0 +1,16 @@
+h1 {
+  font-size: 70px;
+  /* letter-spacing: 2px; her karakter arasındaki boşluk */
+   word-spacing: 40px; 
+  /*her bir kelime arasındaki boşluk */
+  
+}
+
+p {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 14px;
+  /* parağraflar arasındakş satır boşluğunu belirtmek için.*/
+  line-height: 30px; 
+
+}

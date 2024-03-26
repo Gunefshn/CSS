@@ -1,0 +1,9 @@
+h1 {
+  color: blue;
+}
+
+/* Tüm inline internal id/class ve external css uygulamaları yapılmış olduğunda öncelik sırası: 
+internal css > external css
+inline css > internal css 
+class > element
+eğer !important yazılırsa o hepsini eziyor ve important css uygulanıyor*/

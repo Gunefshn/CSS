@@ -1,0 +1,16 @@
+.box1{
+  width: 500px;
+  height: 500px;
+  border: 2px solid red;
+  background-size: cover;
+  background-position: bottom left;
+  background-image: url("https://images.unsplash.com/photo-1710831784457-f081a2d50d04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI5fHhIeFlUTUhMZ09jfHxlbnwwfHx8fHw%3D");
+}
+.box2{
+  width: 300px;
+  height: 500px;
+  border: 2px solid red;
+  background-image: url(https://images.unsplash.com/photo-1710781414249-f6e4570fefd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM1fHhIeFlUTUhMZ09jfHxlbnwwfHx8fHw%3D);
+  background-size: cover;
+  background-position: center;
+}

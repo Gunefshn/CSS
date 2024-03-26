@@ -1,0 +1,39 @@
+body{
+ background-color: pink;
+}
+div{
+  background-color: whitesmoke;
+  width: 500px;
+  border-radius: 20px; 
+  margin: 100px auto;
+  padding: 40px;
+  color: blueviolet;
+}
+.container h2{
+  /* container içerisindeki h2 */
+  text-transform: uppercase;
+  margin-bottom: 0% ;
+  font-size: 25px;
+}
+.container h1{
+  margin-top: 0;
+  font-size: 30;
+  font-weight: 100;
+}
+.container p{
+  font-size: 20;
+}
+button{
+  color: white;
+  background-color: green;
+  padding: 20px 30px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.container button:hover{
+  cursor: pointer;
+  /* color: black;  button un üzerine gelindiğinde renk değişimi */
+  /* background-color: aqua; */
+}

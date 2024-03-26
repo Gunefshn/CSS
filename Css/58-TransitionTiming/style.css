@@ -1,0 +1,21 @@
+.btn {
+  border: 4px solid red;
+  padding: 10px 20px;
+  margin-top: 44px;
+  display: block;
+  width: 50px;
+  /* transition: color 2s, background-color 2s; */
+  /* ease ortaya doğru hızlı hareket ortadan sonra yvaşlayan hareket */
+  /* linear eşit zamanda  */
+  /* ease-in hızlanarak ilerleme */
+  /* ease-out yavaşlayarak ilerleme */
+  /* ease-in-out hızlanıp sona doğru yavaşalama */
+  transition: all 2s ease-in-out;
+}
+.btn:hover {
+  /* border: 4px solid pink;
+  background-color: blue;
+  color: white; */
+  /* hangi eksende kaç px kaydırmak istiyorsak */
+  transform: translateX(200px);
+}

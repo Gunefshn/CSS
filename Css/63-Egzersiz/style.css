@@ -1,0 +1,36 @@
+body{
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.btn{
+  margin: 0px 20px;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  /* transition: transform 0.5s ease-in-out,box-shadow 0.5s ease-in; */
+  transition: all 0.5s ease-in-out;
+}
+
+.button1{
+  color: blue;
+}
+.button1:hover{
+  transform: translateY(-20px);
+  box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+.button2{
+  color: red;
+}
+.button2:hover{
+  scale: 0.75;
+  box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}

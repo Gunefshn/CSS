@@ -1,0 +1,37 @@
+/* display: block; Alt satıra inme 
+display: inline-block; Aynı satırda olma özelliği
+display: none;
+display: flex; 
+display: grid; */
+.inline{
+  display: inline; /* html etiketinin inline özellik sağlaması için  */
+  background-color: aquamarine;
+  border: 3px dotted teal;
+  width: 100px;
+  height: 100px;
+  /* bu şekilde width/height özellikleri geçerli değil
+  geçerli olması için display: block; kullanılmalı.
+ */
+ 
+}
+.inlineBlock{
+  display: inline-block;
+  background-color: aquamarine;
+  border: 3px dotted teal;
+  width: 100px;
+  height: 100px;
+}
+.block{
+  display:block;
+  background-color: aquamarine;
+  border: 3px dotted teal;
+  width: 100px;
+  height: 100px;
+}
+/* display inline özelliği taşıyan bir elemente block olduğu zaman artık block element özelliği taşıyarak bir alt satırdan başlar */
+.none{
+  /* Genellikle masaüstü görünümde gözükmesi mobil de gözükmemesi gibi ik ayrı css set edildiğinde kullanılır. */
+  display:none;
+  /* Html etikeitnin görünürlüğünü kapatmış oluruz */
+  
+}

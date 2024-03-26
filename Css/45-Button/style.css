@@ -1,0 +1,31 @@
+
+body{
+  background-color: lightslategray;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;    /*  yatay olarak ortalama*/
+  justify-content: center; /*  dikey olarak ortalama*/
+}
+.box{
+  background-color: pink;
+  text-decoration: none;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 30px;
+  position: relative;  /*  hizalanacak html etiketine verilir. */
+  border: 2px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+}
+ 
+.box .basket
+{
+  background-color: green;
+  position: absolute;   /* Hizalama yapmak için verilir ve hangi elemente göre hizalama yapılacaksa oda relative olur. */
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
+}

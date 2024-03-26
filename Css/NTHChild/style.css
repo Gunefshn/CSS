@@ -1,0 +1,20 @@
+/* üçü birden seçilmiş olur. */
+/* .hamburger .bar{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background-color: teal;
+} */
+
+/* Belli bir class ı seçmek istediğimizde */
+
+.hamburger .bar:nth-child(1){
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    background-color: blueviolet;
+}
+div{
+    color: wheat ;
+
+}

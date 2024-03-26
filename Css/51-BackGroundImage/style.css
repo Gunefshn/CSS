@@ -1,0 +1,8 @@
+.box{
+  width: 500px;
+  height: 500px;
+  border: 2px solid red;
+  /* background images url olarak verilmesi gerekiyor. Dosya yolu şeklinde verilir. */
+  background-image: url("images/angular.jpg");
+  /* verilen image boyutu width/height değerinden küçük olursa default olarak tekrar eder. */
+}

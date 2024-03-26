@@ -1,0 +1,13 @@
+/* div içerisinde başka bir html etiketi varsa ve div e göre konumlandırmak istersek kullanabiliriz. */
+.box{
+  position: relative;
+  background-color: teal;
+  width: 300px;
+  height: 300px;
+}
+.box span{
+  background-color: yellow;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}

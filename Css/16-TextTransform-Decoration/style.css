@@ -1,0 +1,19 @@
+
+h1 {
+  /* text-decoration-line: line-through;
+  text-decoration-style: dotted;
+  text-decoration-color: red; */
+  /* üç satırın kısa hali */
+  text-decoration: underline dotted rgb(136, 2, 58);
+}
+  /* text-decoration: underline;
+  text-decoration: underline ddtted;
+  text decoration: underline dotted red;
+  text-decoration: green wavy underline;
+  text decoration: underline overline 4FF3 */
+
+h2 {
+  text-transform: capitalize;
+  /* camelcase yapmış olmak */
+}
+

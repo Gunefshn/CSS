@@ -1,0 +1,11 @@
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+  background-image: url('images/angular.jpg');
+  /* Görüntüyü sığdırmaya çalışır sığmadığı durumda repeat uygular */
+  background-size: contain;
+  /* Width/height boyutu bozulmadan focus şeklinde olur */
+  /* background-size: cover; */
+
+}

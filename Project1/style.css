@@ -1,0 +1,79 @@
+body{
+  font-family: "Poppins", sans-serif;;
+  margin: 0;
+}
+h1 {
+  display: inline-block;
+  font-weight: 300;
+
+}
+.links {
+  display: inline-block;
+}
+
+.links li{
+  /* işlerim hakkımda iletişim yanyana gelmesi için  */
+  display: inline-block;
+  
+}
+.links a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+a.active {
+  
+  border-bottom: 1px solid teal;
+}
+.gallery{
+  padding: 15px;
+}
+.card{
+  /* görsellerin yan yana gelebilmesi için */
+  display: inline-block;
+  width: 49%;
+  padding: 16px;
+  box-sizing: border-box;  /* padding in %49 a dahil olmaması için */
+}
+.card img{
+  height: 500px;
+  width: 100% ;
+  object-fit: cover;
+}
+.card img:hover{
+  /* resimlerin üzerine gelindiğinde */
+  opacity: 0.9;
+  /* Görünürlüğünü bir tık azaltmak için */
+}
+.card h2{
+  margin: 8px 0px 16px 0px;
+  font-weight: 400;
+}
+header{
+  margin: 32px;
+}
+.why{
+  width: 50%;
+  padding: 100px 200px;
+
+}
+.banner{
+  font-weight: 400;
+    font-size: 25px;
+    font-style: italic;
+
+}
+.message{
+  color: red;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+  margin-top: 0px;
+  font-style: italic;
+  font-size: 50px;
+}
+.contact p{
+ margin: 0;
+ font-weight: 600;
+ 
+}

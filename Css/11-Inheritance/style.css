@@ -1,0 +1,18 @@
+ul {
+  color: #6a8859;
+}
+span {
+  color: red;
+}
+/* color css inheritance a izin verirken border izin vermez. */
+div {
+  color: blue;
+  border: 1px solid red;
+}
+/* Kapsayıcısındaki border ın geçerli olması için */
+p {
+  border: inherit;
+}
+/* h1 {
+  border: inherit;
+} */

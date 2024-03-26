@@ -1,0 +1,11 @@
+/* Tüm html etiketlerini seçmek için */
+*{
+/* color: aqua; */
+/* Sıfırlama işlemi*/
+margin: 0;
+padding: 0; 
+}
+/* p etikeitne verilen color universalselector u ezer. */
+p{
+  color: aquamarine;
+}
