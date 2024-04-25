@@ -1,0 +1,25 @@
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* animasyonu uygulaması için */
+  animation-name: backgroundChange;
+  /* animasyonun uygulanma süresi */
+  animation-duration: 6s;
+}
+/* @keyframes Animasyon tanımlama şekli */
+@keyframes backgroundChange {
+  /* başlangıç noktası */
+  from {
+    background-color: red;
+  }
+  /* bitiş noktası */
+  to {
+    background-color: aquamarine;
+  }
+}

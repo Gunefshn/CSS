@@ -1,0 +1,11 @@
+body {
+  background-color: red;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    /* min-width 768 px olduğu sürece blue renkte 768 in altına düştüğü zaman kırmızı renkte  */
+    /* genellikle max-width kullanılır mobil görünmünü ayarlamak için */
+    background-color: blue;
+  }
+}

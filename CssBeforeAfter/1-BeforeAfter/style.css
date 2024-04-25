@@ -1,0 +1,8 @@
+/* orjinal content ten önce ve sonrasında yapılacak işlemler */
+div::before {
+  content: 'Before!';
+}
+
+div::after {
+  content: 'After!';
+}

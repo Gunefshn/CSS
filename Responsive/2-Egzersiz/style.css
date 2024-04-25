@@ -1,0 +1,38 @@
+ h1{
+  /* masaüstü görnüm için */
+  font-size: 30px;
+}
+@media screen and (max-width: 1192px) {
+  h1 {
+    /* tablet görünümü için  */
+    font-size: 20px;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    /* mobil cihazlardaki görünüm için */
+    font-size: 12px;
+
+  }
+} 
+/* h1{
+   mobil görünümde olmasını istediğimiz boyut 
+  font-size: 12px;
+}
+@media screen and (min-width: 769px) {
+  h1 {
+     arasında olmasını istediğimiz boyut 
+    font-size: 20px;
+
+  }
+}
+@media screen and (min-width: 1193px) {
+  h1 {
+     masaüstü görnümde olmasını istediğimiz boyut 
+    font-size: 30px;
+
+  }
+} 
+*/
+
